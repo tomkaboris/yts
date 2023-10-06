@@ -1,8 +1,8 @@
 import tkinter as tk
 from tkinter import scrolledtext
-import requests
+import requests #need to install this module
 import webbrowser
-from bs4 import BeautifulSoup
+from bs4 import BeautifulSoup #need to install this module
 
 def on_enter(event):
     text.tag_configure("mytag", foreground="blue", underline=True)
